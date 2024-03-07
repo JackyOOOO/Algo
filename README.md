@@ -18,8 +18,9 @@ Calculate 1. Expected loss, 2. Unexpected loss/RWA, 3. Reverse Stress test
 
 Explanation:
 
-1. Use Gaussian Copula Model to model the asset value (X)
+1. Using Gaussian Copula Model to model the asset value (X)
   <img width="315" alt="Screenshot 2024-03-07 at 9 09 53 PM" src="https://github.com/JackyOOOO/Credit-Modelling/assets/106862996/f211086f-5f6a-4233-be87-953d987e5c6d">
 
-2. 
+2. By using 1, the Conditional Transition Matrix (M(Z)) per year can be obtained using the formula below
 <img width="408" alt="Screenshot 2024-03-07 at 9 16 54 PM" src="https://github.com/JackyOOOO/Credit-Modelling/assets/106862996/4a1a9eb3-93b9-468b-994f-f740448ff9c7">
+
