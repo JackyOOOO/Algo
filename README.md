@@ -1,6 +1,8 @@
-This is the implementation of the CERM model. The package is extremely easy to use that only 3 lines are neeeded.
+This is the implementation of the CERM model (reference: https://arxiv.org/pdf/2103.03275.pdf). The package is extremely easy to use that only 3 lines are neeeded.
+
 
 Objective: Estimate credit losses per year given a scenario with multi factors (e.g., Economic condition, Climate, Other impacts)
+
 
 Input:
 1. Exposure of the portfolio
@@ -9,11 +11,14 @@ Input:
 4. Factors representing the condition (from ytd to year n)
 5. Correlation Matrix (C)
 
+
 Output:
 Loss distribution per year
 
+
 Possible Usage:
 Calculate 1. Expected loss, 2. Unexpected loss/RWA, 3. Reverse Stress test
+
 
 How to use the package:
 1. from CERM Import CERM_Model
