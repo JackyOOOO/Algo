@@ -6,7 +6,7 @@ Objective: Estimate credit losses per year given a scenario with multi factors (
 Usage:
 1. Download the package
 2. Run Model Demo.ipynb for quick start
-3. Edit Sample Input.xlsx to have your own dataset
+3. Edit Sample Input.xlsx and run with your own dataset
 
 
 
