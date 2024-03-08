@@ -1,4 +1,4 @@
-This is the implementation of the CERM model (reference: https://arxiv.org/pdf/2103.03275.pdf). The package is extremely easy to use that only 3 lines are neeeded.
+This is the implementation of the CERM model (reference: https://arxiv.org/pdf/2103.03275.pdf). The package is extremely easy to use that only 4 lines are neeeded.
 
 
 Objective: Estimate credit losses per year given a scenario with multi factors (e.g., Economic condition, Climate, Other impacts)
@@ -37,6 +37,7 @@ How to use the package:
 1. from CERM Import CERM_Model
 2. model = CERM_Model(PD, LGD, Rho, Macro_Param, Loan)
 3. model.load
+4. model.compute_conditional(n_sim = n_sim)
 Then, we have everything including expected loss, RWA, loss distribution, etc.
 
 
