@@ -22,9 +22,15 @@ Input:
 Output:
 Loss distribution per year
 
+![Unknown](https://github.com/JackyOOOO/Multi-Factor-Risk-Modelling/assets/106862996/9abb3258-4c4b-4ac9-ba60-9065113f0ca2)
+
 
 Possible Usage:
 Calculate 1. Expected loss, 2. Unexpected loss/RWA, 3. Reverse Stress test
+
+![Unknown](https://github.com/JackyOOOO/Multi-Factor-Risk-Modelling/assets/106862996/233bddcc-abaa-44e6-ba17-5721c5b02e2e)
+
+![Unknown](https://github.com/JackyOOOO/Multi-Factor-Risk-Modelling/assets/106862996/e5abfe64-5812-4615-825b-68a97144ca68)
 
 
 How to use the package:
